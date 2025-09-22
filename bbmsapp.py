@@ -4,7 +4,6 @@ import os
 import pandas as pd
 from utils import init_env
 print("***************")
-import pipeline 
 from pipeline.llm import get_roast_llm
 from pipeline.prompt_template import get_roast_prompt
 print("******* No Error ********")
