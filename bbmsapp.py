@@ -92,7 +92,9 @@ if st.button("Find")  :
         print(row_to_dict)
         st.write(f"You want GenAi to roast {query_name}, "
       f"This person is most commonly known as {row_to_dict['commonly_called']}")
-    
+        
+        st.write("** Give me five seconds, let me get ready to roast him. **")
+        
         # st.write("Joke scenarios:", row["joke_scinareo"])
         # st.write("In 5 years:", row["in5years"])
 
